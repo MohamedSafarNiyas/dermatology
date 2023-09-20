@@ -9,7 +9,7 @@ st.title("Dermatology Disease Classification")
 
 st.write("Predict the skin disease by using the image.")
 
-model = load_model("C:/Users/Student.MS-15/Downloads/my_model.h5",custom_objects={'KerasLayer':hub.KerasLayer})
+model = load_model("my_model.h5",custom_objects={'KerasLayer':hub.KerasLayer})
 labels = {
         0: 'Hair Loss Photos Alopecia and other Hair Diseases',
         1: 'Melanoma Skin Cancer Nevi and Moles',
